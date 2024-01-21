@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,10 @@
 </head>
 <body>
   <div class="container-general">
-    <div class="info-card"></div>    
+    <div class="info-card">
+      <p><?php echo $_SESSION['generated_psw'] ?></p>
+    </div>    
+    <a href="./index.php" class="redirect-btn">Torna alla home</a>
   </div>
 </body>
 </html>

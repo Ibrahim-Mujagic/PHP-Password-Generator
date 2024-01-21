@@ -33,6 +33,15 @@ header h2 {
   align-items: center;
 }
 
+.container-general a.redirect-btn {
+  padding: 7px 10px;
+  background-color: transparent;
+  border: 1px solid #ffff;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
 .container-general .info-card {
   width: 60%;
   height: 60px;
@@ -42,6 +51,10 @@ header h2 {
   line-height: 60px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.container-general .info-card .error {
+  color: red;
 }
 
 .container-general .card {
