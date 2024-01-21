@@ -11,7 +11,7 @@
   <?php include './partials/header.php' ?>
   <div class="container-general">
     <div class="info-card">
-      <?php if(empty($_GET['psw_length' && !$isError])): ?>
+      <?php if(empty($_GET['psw_length']) && !$isError): ?>
       <p>
         Scegli una password con un minimo di 8 caratteri e un massimo di 32
       </p>
